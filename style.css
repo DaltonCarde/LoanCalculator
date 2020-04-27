@@ -1,0 +1,147 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 175, 189);
+    background: linear-gradient(90deg, rgba(255, 175, 189, 1) 0%, rgba(255, 195, 160, 1) 100%);
+}
+
+.container {
+    background: #ffbe76;
+    margin: 3rem 15%;
+    padding: 2rem;
+    border-radius: 8px;
+    -webkit-box-shadow: 7px 10px 20px -6px rgba(92, 70, 46, 0.77);
+    -moz-box-shadow: 7px 10px 20px -6px rgba(92, 70, 46, 0.77);
+    box-shadow: 7px 10px 20px -6px rgba(92, 70, 46, 0.77);
+    max-height: 150vh;
+}
+
+.card {
+    text-align: center;
+}
+
+.heading {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 300;
+    font-size: 2.7rem;
+    color: #fff;
+}
+
+.form-group {
+    margin-top: 1rem;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-group-addon {
+    margin-right: 0rem;
+    background-color: #95afc0;
+    padding: 0.45rem 0.75rem;
+    cursor: default;
+}
+
+.input-group-addon-1 {
+    margin-right: 0rem;
+    background-color: #95afc0;
+    padding: 0.45rem 0.6rem;
+    cursor: default;
+}
+
+.form-control {
+    padding: 0.5em 0.75em;
+    width: 50%;
+}
+
+.YTR{
+    width: 54%;
+}
+
+input:focus {
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.btn{
+    padding: .5rem;
+    background-color: #686de0;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 54%;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    transition: all .3s ease;
+}
+
+.btn:hover{
+    background-color: #00b894;
+}
+
+
+#results{
+    padding-bottom: 1rem;
+}
+
+.results{
+    padding-top: 2.5rem;
+    font-size: 2rem;
+    color: #ffffff;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+
+.input-group-addon-one {
+    padding: 0.45rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    margin-right: 0rem;
+    background-color: #95afc0;
+    cursor: default;
+}
+
+.input-group-addon-one2 {
+    padding: 0.45rem;
+    padding-right: 1.75rem;
+    padding-left: 1.75rem;
+    margin-right: 0rem;
+    background-color: #95afc0;
+    cursor: default;
+}
+
+
+.error-not{
+    font-family: 'Roboto', sans-serif;
+    color: #d63031;
+    background-color: #ff7675;
+    padding: .7rem;
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#loading{
+    margin-top: 2rem;
+}
+
+
+
